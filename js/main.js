@@ -255,7 +255,7 @@ function main() {
      * @return array contacts コンタクト一覧
      */
     function getContacts() {
-        var API_TOKEN = ""; // お仕事泥棒のAPI_TOKEN
+        var API_TOKEN = ""; 
         jQuery.ajax({
             url: 'https://api.chatwork.com/v2/contacts/',
             headers: {
