@@ -1,0 +1,16 @@
+{
+    "name": "チャットワークTo送信",
+    "version": "4.1",
+    "description": "chatworkのTo送信ボタン。To送信ボタンを利用することでグループの中で指定した複数の人物宛に個別でチャット送信ができます。",
+    "content_scripts": [{
+        "matches": ["https://kcw.kddi.ne.jp/*"],
+        "js": ["js/jquery-3.1.1.min.js", "js/main.js"],
+        "run_at": "document_end"
+    }],
+    "permissions": [
+      "management",
+      "https://api.chatwork.com/"
+
+    ],
+    "manifest_version": 2
+}
